@@ -2,7 +2,7 @@ import csv
 import time
 import pandas as pd
 
-from MBStream import start
+from stream.mine.MBStream import start
 
 if __name__ == '__main__':
     dataset = "RBF3_40000(1000).csv"
