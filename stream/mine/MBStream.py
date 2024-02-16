@@ -1,8 +1,8 @@
 import math
 import sys
 from sklearn.decomposition import PCA
-from HyperballClustering import *
-from MicroCluster import MicroBall
+from stream.mine.HyperballClustering import *
+from stream.mine.MicroCluster import MicroBall
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from stream.mine.DPC import get_cluster_DPC
